@@ -1,0 +1,27 @@
+body{
+    background-color: black;
+   
+}
+.header {
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    font-size: 30px;
+  }
+
+  p {
+    font-family: monospace;
+    color: aliceblue;
+}
+
+a{
+    color: chartreuse;
+}
+ul{
+    background-color: aqua;
+    padding: 20px;
+  }
+  table, th, td {
+    border: 1px solid rgb(245, 59, 205);
+    color: chocolate;
+  }

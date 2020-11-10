@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> Registtration Form </title>
+    </head>
+    <body>
+        <H1>My Registration Form</H1>
+        <p>Enter Your Information</p>
+        <label for = "first_name"> First Name </label>
+        <input type="text" id="first_name" name="first_name"><br><br>
+
+        <label for = "last_name"> Last Name </label>
+        <input type="text" id="last_name" name="last_name"><br><br>
+
+        <label for = "email"> Email </label>
+        <input type = "text" id = "email" placeholder="Enter Email" name = "email"><br><br>
+
+        <label for="password"> Password </label>
+        <input type="password" id = "password" placeholder="Enter Password" name="pasword"><br><br>
+        
+        <label for="repeatpassword">Repeat Password </label>
+        <input type="password" id ="repeatpassword" name="repeatepasword"><br><br>
+        
+        <label for = "birthday"> Birthday </label>
+        <input type = "date" id = "birthday"><br><br>
+
+        <!--Radio Botton -->
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="other">Other</label>
+        <input type="radio" id="other" name="gender" value="other">
+        
+        <p>Short description about yourself</p>
+        <textarea name="description" style="width:200px; height:50px;"></textarea><br><br>
+
+        <label for="lanuage">Choose a favorite language:</label>
+        <select name="language" id="lanuage">
+            <option value="">--Please choose an option--</option>
+            <option value="Javascript">Javascript</option>
+            <option value="CSS">CSS</option>
+            <option value="PHP">PHP</option> 
+        </select><br><br>
+
+        <input type="submit" value="Submit">
+    </body>
+</html>
