@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<H1>Hello, here is the submitted INFO</H1>
+{{ request.session.cookult }}
+<h3>Full Name:{{ request.session.cookult.fullName }} </h3>
+<h3>Location Choice: {{ request.session.cookult.locationChoice }}</h3>
+<h3>Favorite Language: {{ request.session.cookult.languageChoice }}</h3>
+<h3>Gender: {{ request.session.cookult.gender }}</h3>
+<h3>Gender: {{ request.session.cookult.os }}</h3>
+<h3>Comments:</h3>
+<p>{{ request.session.cookult.comments }}</p>
+
+</body>
+</html>
